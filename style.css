@@ -222,6 +222,7 @@ footer {
     font-weight: 700;
     opacity: 5%;
     font-family: 'Roboto', monospace; 
+    display: none;
 }
 
 
