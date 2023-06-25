@@ -40,6 +40,7 @@ main {
 h1 {
     font-family: 'Roboto Mono', monospace; 
     font-size: 50px;
+  
 }
 
 .highlight {
@@ -142,9 +143,9 @@ a {
 
 
 
-.contactSection {
+  .contactSection {
     background-color: rgba(25, 25, 25, 0.144);
-    height: 60vh;
+    height: 50vh;
     gap: 20vw;
     margin-bottom: 2rem;
     border-radius: 10px; 
@@ -152,17 +153,12 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    pos
 }
 
-.card {
-    width: 300px;
-    height: 300px;
-    border-radius: 10px;
-    filter: blur(100%);
-}
 
-.skillSection {
+.skillSection { 
+    
     background-color: rgba(25, 25, 25, 0.144);
     height: 60vh;
     display: flex;
@@ -171,6 +167,8 @@ a {
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
     gap: 5rem;
 }
+   
+
 
 
 .langBox {
@@ -226,6 +224,7 @@ footer {
     font-family: 'Roboto', monospace; 
 }
 
+
 .learning {
     position: absolute;
     left: 220px;
@@ -274,6 +273,7 @@ footer {
 
 .github {
     color: rgb(191, 191, 191);
+    z-index: 1000;
 }
 
 .barCircle {
@@ -330,3 +330,57 @@ section {
 
 }
 
+
+.card {
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 0 0 -85rem;
+    background-color: rgba(181, 181, 181, 0.092)
+
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: invert(100%);
+    margin-bottom: 0.5rem;
+  
+}
+
+
+.iconContainer {
+    width: 1.5rem;
+    height: 100px;
+}
+
+.iconLink {
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: invert(100%);
+    margin: 0 0.5rem -0.3rem 0;
+}
+
+.contactData {
+    margin: -6.3rem 0 0 2.5rem;
+}
+
+.social {
+    margin-top: 3rem;
+}
+
+.gitHeader {
+        position: absolute;
+        top: 85rem;
+        font-size: 22em;
+        font-weight: 700;
+        opacity: 5%;
+        font-family: 'Roboto', monospace; 
+} 
+
+.gitTitel {
+    position: relative;
+    right: 50vw;
+    bottom: 16vh;
+}
