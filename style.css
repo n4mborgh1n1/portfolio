@@ -144,7 +144,7 @@ a {
 .skillSection { 
     
     background-color: rgba(25, 25, 25, 0.144);
-    height: 60vh;
+    height: 30rem;
     display: flex;
     margin-bottom: 2rem;
     border-radius: 10px; 
@@ -270,6 +270,7 @@ footer {
 .splitter {
     scale: 60%;
     border-radius: 10px;
+    margin-right: 5rem;
 }
 
 .splitterApp {
@@ -298,7 +299,7 @@ footer {
 
 .projSection {
     background-color: rgba(25, 25, 25, 0.144);
-    height: 60vh;
+    height: 30rem;
     display: flex;
     margin-bottom: 2rem;
     border-radius: 10px; 
@@ -315,25 +316,34 @@ section {
 
 .contactSection {
     background-color: rgba(25, 25, 25, 0.144);
-    height: 50vh;
-    gap: 20vw;
+    height: 25rem;
     margin-bottom: 2rem;
     border-radius: 10px; 
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
 }
 
+.gitTitel {
+    position: relative;
+    left: -4%;
+}
+
+.contactRightside {
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+}
 
 .card {
     width: 400px;
     height: 100px;
     padding: 20px;
+    background-color: rgba(181, 181, 181, 0.092);
     border-radius: 10px;
-    margin: 0 0 0 -85rem;
-    background-color: rgba(181, 181, 181, 0.092)
-
+    margin-bottom: -2rem;
+    margin-left: -1.2rem;
 }
 
 .icon {
@@ -374,9 +384,5 @@ section {
         font-family: 'Roboto', monospace; 
 } 
 
-.gitTitel {
-    position: relative;
-    right: 49.5vw;
-    bottom: 16vh;
-}
+
 
