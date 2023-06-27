@@ -12,6 +12,11 @@ main {
     margin: 15vh 0 0 10vw;
 }
 
+.intro, section, footer {
+    font-size: 1em;
+    line-height: 2rem;
+}
+
 .yellowBar {
     width: 500px;
     height: 6px;
@@ -54,10 +59,6 @@ h1 {
 
 .highlight {
     color: white;
-}
-
-.intro, section {
-    line-height: 2rem;
 }
 
 a {
@@ -142,7 +143,6 @@ a {
   }
 
 .skillSection { 
-    
     background-color: rgba(25, 25, 25, 0.144);
     height: 30rem;
     display: flex;
@@ -198,11 +198,15 @@ footer {
 .skillHeader {
     position: absolute;
     left: 12rem;
-    bottom: -48rem;
+    bottom: -52rem;
     font-size: 22em;
     font-weight: 700;
     opacity: 5%;
     font-family: 'Roboto', monospace; 
+    cursor: default;
+    user-select: none;
+     -moz-user-select: none; /* für Firefox */
+     -webkit-user-select: none; /* für Chrome, Safari, und Opera */
 }
 
 
@@ -382,6 +386,7 @@ section {
         opacity: 5%;
         font-family: 'Roboto', monospace; 
 } 
+
 
 
 
