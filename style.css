@@ -198,7 +198,7 @@ footer {
 .skillHeader {
     position: absolute;
     left: 12rem;
-    bottom: -52rem;
+    bottom: -32rem;
     font-size: 22em;
     font-weight: 700;
     opacity: 5%;
@@ -207,6 +207,7 @@ footer {
     user-select: none;
      -moz-user-select: none; /* für Firefox */
      -webkit-user-select: none; /* für Chrome, Safari, und Opera */
+     margin: auto;
 }
 
 
