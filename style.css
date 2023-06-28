@@ -17,6 +17,10 @@ main {
     line-height: 2rem;
 }
 
+section {
+    width: 100%;
+}
+
 .yellowBar {
     width: 500px;
     height: 6px;
@@ -161,7 +165,7 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 15vw;
+    right: 35%;
 }
 
 .langLogo {
@@ -208,12 +212,6 @@ footer {
      -moz-user-select: none; /* für Firefox */
      -webkit-user-select: none; /* für Chrome, Safari, und Opera */
      margin: auto;
-}
-
-
-.learning {
-    position: absolute;
-    left: 220px;
 }
 
 .expBar {
@@ -274,7 +272,7 @@ footer {
 .splitter {
     scale: 60%;
     border-radius: 10px;
-    margin-right: 5rem;
+    margin-right: 10vw;
 }
 
 .splitterApp {
@@ -295,7 +293,7 @@ footer {
     left: 4rem;
  }
 
-.projHeader {
+.projHeader, .learning {
     width: 100%;
     margin-left: 4rem;
     
