@@ -17,11 +17,18 @@ main {
     line-height: 2rem;
 }
 
+.leftSide {
+    width: 500px;
+}
+
 section {
     color:hsl(0, 0%, 58%);
-    margin: 2rem 0 2rem 7vw;
+    margin: 2rem 0 2rem 4rem;
     width: 100%;
 
+}
+
+.leftSide {
 }
 
 .yellowBar {
@@ -272,9 +279,11 @@ footer {
 }
 
 .splitter {
-    scale: 60%;
+    max-width: 100%;
     border-radius: 10px;
-    margin-right: 10vw;
+    position: relative;
+    bottom: 15rem;
+    left: 40rem;
 }
 
 .splitterApp {
