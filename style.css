@@ -22,14 +22,13 @@ section {
 }
 
 .yellowBar {
-    width: 500px;
+    width: 495px;
     height: 6px;
     background-image: linear-gradient(to right, hsl(61, 100%, 60%), hsl(0, 0%, 100%));
     position: relative;
     left: 165px;
     top: 35px;
     border-radius: 5px;
-
 }
 
 .greeting {
@@ -51,7 +50,6 @@ section {
     max-width: 15rem;
     margin: -40rem 0 4rem 45rem;
     border-radius: 1rem 10rem 1rem 1rem;
-    
 
 }
 
@@ -100,7 +98,7 @@ a {
     position: absolute;
     left: 7rem;
     font-family: 'Oswald', sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
   }
 
   button {
@@ -201,7 +199,7 @@ footer {
     
 }
 
-.skillHeader {
+.backFont {
     position: absolute;
     left: 12rem;
     bottom: -32rem;
@@ -295,7 +293,7 @@ footer {
     left: 4rem;
  }
 
-.projHeader, .learning {
+.projHeader, .skillHeader {
     width: 100%;
     margin-left: 4rem;
     
@@ -388,6 +386,88 @@ section {
         font-family: 'Roboto', monospace; 
 } 
 
+@media only screen and (max-width: 767px) {
 
+    body {
+    }
+
+
+    .backFont, .invBtn {
+        display: none;
+    }
+
+    .logo {
+    position: absolute;
+    left: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+  }
+
+  .navContainer {
+    background-color: rgba(25, 25, 25, 0.701);
+    min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+ 
+.linksContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 11rem;
+    gap: 0.5rem;
+    font-size: 0.75em;
+    display: none;
+
+}
+
+.greeting {
+    width: 60%;
+    padding: 1vh 10vw 3rem 10vw;
+    margin: 2rem 0 -1.5rem 0rem;
+    background-color: rgba(255, 255, 255, 0.032); 
+    border-radius: 10px; 
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
+   
+}
+
+.pb{
+
+    width: 15rem;
+    margin: -60rem 0 4rem 20rem;
+    border-radius: 1rem 10rem 1rem 1rem;
+    position: absolute;
+    bottom: -98rem;
+}
+
+.yellowBar {
+    width: 80%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+.portfolioBtn {
+    color: white;
+    min-height: 2.5em;
+    width: 10rem;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to left, hsl(61, 100%, 60%), hsl(313, 100%, 50%));
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-left: -2vw;
+    
+ }
+
+
+
+    
+}
 
 
