@@ -18,7 +18,10 @@ main {
 }
 
 section {
-    width: 30vw;
+    color:hsl(0, 0%, 58%);
+    margin: 2rem 0 2rem 7vw;
+    width: 100%;
+
 }
 
 .yellowBar {
@@ -308,12 +311,6 @@ footer {
     gap: 5rem;
 }
 
-section {
-    color:hsl(0, 0%, 58%);
-    margin:0 0 2rem 4rem;
-
-}
-
 
 .contactSection {
     background-color: rgba(25, 25, 25, 0.144);
@@ -438,11 +435,11 @@ section {
 
 .pb{
 
-    width: 15rem;
-    margin: -60rem 0 4rem 20rem;
+    width: 25vw;
+    margin: 0 0 3.5rem 3.5rem;
     border-radius: 1rem 10rem 1rem 1rem;
     position: absolute;
-    bottom: -98rem;
+    bottom: -118rem;
 }
 
 .yellowBar {
@@ -498,6 +495,16 @@ section {
 
 }
 
+.projSection {
+    background-color: rgba(25, 25, 25, 0.144);
+    height: 30rem;
+    display: block;
+    margin-bottom: 2rem;
+    border-radius: 10px; 
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
+    gap: 5rem;
+}
+
 .skillHeader {
     width: 100%;
     margin-left: 10vw;
@@ -507,9 +514,9 @@ section {
 
 
 .projHeader {
-    max-width: 450px;
-    margin-left: 10vw;
-    
+    width: 200px;
+    padding: 1rem 1rem 0 4rem;
+    margin: 0 0 0 -2rem;
 }
 
 .langBox {
@@ -518,10 +525,27 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0rem auto 7rem auto;
-    
+    margin: 0rem auto 7rem auto; 
 
 }
+
+section {
+    width: 60%;
+    color:hsl(0, 0%, 58%);
+    margin: 15rem 0 2rem 7vw;
+
+}
+
+
+.splitter {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 0rem 0 0 0rem;
+    
+}
+
+
+
 
 
 
