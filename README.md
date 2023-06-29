@@ -1,1 +1,1 @@
-Thank you for your attention! :)
+Thank you for your attention! 
