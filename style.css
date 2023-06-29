@@ -28,7 +28,6 @@ section {
 
 }
 
-
 .yellowBar {
     width: 495px;
     height: 6px;
@@ -273,7 +272,6 @@ footer {
     border-radius: 50%;
     background-color: white;
     
-    
 }
 
 .splitter {
@@ -359,7 +357,6 @@ footer {
   
 }
 
-
 .iconContainer {
     width: 1.5rem;
     height: 100px;
@@ -391,11 +388,9 @@ footer {
 
 @media only screen and (max-width: 767px) {
 
-
     h1 {
         font-size: 2rem;
     }
-
 
     .backFont, .invBtn {
         display: none;
@@ -488,8 +483,7 @@ footer {
     margin: 5rem 0 2rem 0;
     border-radius: 10px; 
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
-    
-    
+     
 }
 
 .contactSection {
@@ -538,7 +532,6 @@ section {
 
 }
 
-
 .splitter {
     border-radius: 10px;
     position: relative;
@@ -553,6 +546,12 @@ section {
     margin: 0 auto;
 }
 
+.contactSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 .contactRightside {
     width: 280px;
@@ -569,13 +568,6 @@ section {
     border-radius: 10px;
     margin-bottom: -2rem;
     margin-left: -1.2rem;
-}
-
-.contactSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
 }
 
 .tryMeBtn {
