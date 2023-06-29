@@ -441,7 +441,6 @@ footer {
 }
 
 .pb{
-
    display: none;
 }
 
@@ -516,7 +515,6 @@ footer {
     
 }
 
-
 .projHeader {
     width: 200px;
     margin: 2rem 0 0 0.2rem;
@@ -547,10 +545,8 @@ section {
     left: 0%;
     bottom: 33rem;
     margin: 0 auto;
- 
-    
-}
 
+}
 
 .leftSide {
     width: 80%;
@@ -598,7 +594,6 @@ section {
 .social {
     width: 15rem;
 }
-
     
 }
 
