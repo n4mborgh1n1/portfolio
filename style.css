@@ -17,6 +17,10 @@ main {
     line-height: 2rem;
 }
 
+.dropdown {
+    display: none;
+}
+
 .leftSide {
     width: 500px;
 }
@@ -400,7 +404,7 @@ footer {
     position: absolute;
     left: 2rem;
     font-family: 'Oswald', sans-serif;
-    font-size: 1em;
+    font-size: 1.15em;
   }
 
   .navContainer {
@@ -579,7 +583,59 @@ section {
 
 .social {
     width: 15rem;
+
 }
+
+/* Stile für das Dropdown-Menü */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-image: linear-gradient(to left, hsl(61, 100%, 60%), hsl(313, 100%, 50%));
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 20vw;
+    margin-top: -1rem;
+  
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 20vw;
+    margin-top: 1.3rem;
+    background-color: #f9f9f9;
+    min-width: 25vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 0 20px 20px 20px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    border-radius: 0 20px 20px 20px;
+
+  }
+  
+  .show {
+    display: block;
+  }
+  
     
 }
 
