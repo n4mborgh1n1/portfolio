@@ -190,7 +190,7 @@ a {
 
 .langLabel {
     position: absolute;
-    margin-top: 48vh;
+    margin-top: 350px;
     font-weight: 700;
 }
 
@@ -225,7 +225,7 @@ footer {
     height: 10px;
     background-color: rgba(78, 78, 78, 0.557);
     position: absolute;
-    margin-top: 38vh;
+    margin-top: 270px;
     border-radius: 10px;
     padding: 2px;
     
@@ -571,14 +571,8 @@ section {
 }
 
 .tryMeBtn {
-    color: rgb(255, 255, 255);
     min-height: 2.5em;
-    width: 10rem;
-    border: none;
-    border-radius: 20px;
-    background-image: linear-gradient(to left, hsl(61, 100%, 60%), hsl(313, 100%, 50%));
     font-size: 1rem;
-    cursor: pointer;
     position: relative;
     left: 20%;
  }
