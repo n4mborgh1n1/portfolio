@@ -5,7 +5,7 @@
  
   }
   
-.invBtn, .portfolioBtn, .tryMeBtn, .dropBtn {
+.invBtn, .portfolioBtn, .tryMeBtn {
     background: var(--gradient);
     color: white;
 }
@@ -617,22 +617,24 @@ section {
   }
   
   .dropBtn {
+    background-color: #f2f2f200;
+    color: white;
     padding: 10px;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     position: absolute;
-    left: 25vw;
-    margin-top: -1rem;
+    left: 27vw;
+    margin-top: -1.25rem;
   
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    left: 60px;
-    margin-top: 1.3rem;
+    left: 16vw;
+    margin-top: 1.1rem;
     background-color: #f9f9f9;
     min-width: 25vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -655,10 +657,6 @@ section {
 
   }
   
-  .show {
-    display: block;
-  }
-
   .iconLink2 {
     width: 1.5rem;
     height: 1.5rem;
