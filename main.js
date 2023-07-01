@@ -26,13 +26,17 @@ document.getElementsByClassName("dropBtn")[0].addEventListener("click", function
   
     var mainColor = getComputedStyle(body).getPropertyValue("--main-color");
     var secColor = getComputedStyle(body).getPropertyValue("--sec-color");
-  
+    var linkColor = getComputedStyle(body).getPropertyValue("--link-color");
+    
     if (body.classList.contains("colorTheme")) {
       body.style.setProperty("--main-color", "#cfcfcf"); 
-      body.style.setProperty("--sec-color", "#0c0013"); 
+      body.style.setProperty("--accent-color", "#0c0013");
+      body.style.setProperty("--link-color", "#0c0013"); 
     } else {
       body.style.setProperty("--main-color", "#0c0013"); 
-      body.style.setProperty("--sec-color", "#cfcfcf"); 
+      body.style.setProperty("--accent-color", "#cfcfcf"); 
+      body.style.setProperty("--link-color", "#0c0013"); 
+
     }
   }
   
