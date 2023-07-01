@@ -139,7 +139,7 @@ a {
        
   }
   
-#logo {
+.logo {
     position: absolute;
     left: 7rem;
     font-family: 'Oswald', sans-serif;
@@ -441,7 +441,7 @@ footer {
         display: none;
     }
 
-    #logo {
+    .logo {
     left: 2rem;
     font-size: 1.15em;
   }
