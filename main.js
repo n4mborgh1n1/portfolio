@@ -28,14 +28,14 @@ document.getElementsByClassName("dropBtn")[0].addEventListener("click", function
     var secColor = getComputedStyle(body).getPropertyValue("--sec-color");
     var linkColor = getComputedStyle(body).getPropertyValue("--link-color");
     
-    if (body.classList.contains("colorTheme")) {
-      body.style.setProperty("--main-color", "#cfcfcf"); 
-      body.style.setProperty("--accent-color", "#0c0013");
-      body.style.setProperty("--link-color", "#0c0013"); 
+    if (body.classList.contains("colorTheme")) { /* Press Button to switch to light mode */
+      body.style.setProperty("--main-color", "#cfcfcf"); /* grey */
+      body.style.setProperty("--accent-color", "#0c0013"); /* dark purple */
+      body.style.setProperty("--link-color", "rgb(30, 30, 30)"); /* dark grey */
     } else {
-      body.style.setProperty("--main-color", "#0c0013"); 
-      body.style.setProperty("--accent-color", "#cfcfcf"); 
-      body.style.setProperty("--link-color", "#0c0013"); 
+      body.style.setProperty("--main-color", "#0c0013"); /* dark purple */
+      body.style.setProperty("--accent-color", "#cfcfcf"); /* grey */
+      body.style.setProperty("--link-color", "rgb(224, 224, 0)"); /* yellow */
 
     }
   }
