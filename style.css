@@ -683,15 +683,15 @@ section {
 .colorBtn {
     background-color: #746363c0; /* ! */
     color: white;
-    border-radius: 20px;
+    border-radius: 0 20px 20px 0;
     padding: 5px 5px;
     position: fixed;
-    left: 80vw;
+    left: 0vw;
     bottom: 80vh;
     cursor: pointer;
     border: none;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 25px;
 }
   
 }
