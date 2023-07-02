@@ -10,7 +10,7 @@ document.getElementsByClassName("dropBtn")[0].addEventListener("click", function
   });
   
   // Schließen des Dropdown-Menüs, wenn außerhalb davon geklickt wird
-  window.addEventListener("click", function(event) {
+  window.addEventListener("touchstart", function(event) {
     var dropdown = document.getElementsByClassName("dropdown")[0];
     if (!dropdown.contains(event.target)) {
       var dropdownContent = dropdown.getElementsByClassName("dropdown-content")[0];
