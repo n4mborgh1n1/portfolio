@@ -4,7 +4,8 @@
     --gradient: linear-gradient(to left, var(--accent-color), hsl(313, 100%, 50%));
 
     --link-color: rgb(224, 224, 0);
- 
+    --section-color: hsl(0, 0%, 58%);
+    --greeting: rgba(255, 255, 255, 0.045);
   }
 
   
@@ -66,7 +67,7 @@ p {
 
 section {
     width: 100%;
-    color:hsl(0, 0%, 58%);
+    color: var(--section-color);
     margin: 2rem 0 2rem 4rem;
 
 }
@@ -85,7 +86,7 @@ section {
     width: 425px;
     padding: 1rem 1rem 3rem 4rem;
     margin: 4rem 0 3.2rem 10rem;
-    background-color: rgba(255, 255, 255, 0.032); 
+    background-color: var(--greeting); 
     border-radius: 10px; 
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
 
@@ -299,7 +300,7 @@ footer {
 }
 
 .github {
-    color: rgb(191, 191, 191);
+    color: var(--section-color);
     z-index: 1000;
 }
 
@@ -378,7 +379,7 @@ footer {
     width: 400px;
     height: 100px;
     padding: 20px;
-    background-color: rgba(181, 181, 181, 0.092);
+    background-color: var(--greeting);
     border-radius: 10px;
     margin-bottom: -2rem;
     margin-left: -1.2rem;

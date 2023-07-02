@@ -32,10 +32,20 @@ document.getElementsByClassName("dropBtn")[0].addEventListener("click", function
       body.style.setProperty("--main-color", "#cfcfcf"); /* grey */
       body.style.setProperty("--accent-color", "#0c0013"); /* dark purple */
       body.style.setProperty("--link-color", "rgb(30, 30, 30)"); /* dark grey */
+
+      body.style.setProperty("--greeting", "rgba(25, 25, 25, 0.144)"); /* transparent grey */
+      body.style.setProperty("--section-color", "rgb(30, 30, 30)") 
+
+    
     } else {
       body.style.setProperty("--main-color", "#0c0013"); /* dark purple */
       body.style.setProperty("--accent-color", "#cfcfcf"); /* grey */
       body.style.setProperty("--link-color", "rgb(224, 224, 0)"); /* yellow */
+
+      body.style.setProperty("--greeting", "rgba(255, 255, 255, 0.032)"); /* transparent grey */
+      body.style.setProperty("--section-color", "rgb(191, 191, 191)") 
+
+
 
     }
   }
