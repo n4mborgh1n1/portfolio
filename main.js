@@ -37,7 +37,7 @@ document.getElementsByClassName("dropBtn")[0].addEventListener("click", function
       body.style.setProperty("--section-color", "rgb(30, 30, 30)"); /* dark grey */
 
     
-    } else {
+    } else { 
       body.style.setProperty("--main-color", "#0c0013"); /* dark purple */
       body.style.setProperty("--accent-color", "#cfcfcf"); /* grey */
       body.style.setProperty("--link-color", "rgb(224, 224, 0)"); /* yellow */

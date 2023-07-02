@@ -55,6 +55,11 @@ p {
     border: none;
     font-weight: 700;
     font-size: 28px;
+    transition: ease-out 0.4s;
+}
+
+.colorBtn:hover {
+    padding-right: 10px;
 }
 
 .dropdown {
@@ -250,6 +255,10 @@ footer {
     align-items: center;
 }
 
+#footerColor {
+    color:rgb(224, 224, 0)
+}
+
 .backFont {
     position: absolute;
     left: 12rem;
@@ -329,7 +338,8 @@ footer {
 
 .splitterApp {
     color: white;
-    font-family: 'Roboto', sans-serif;                        
+    font-family: 'Roboto', sans-serif;    
+                      
 }
 
 .tryMeBtn {
@@ -515,6 +525,7 @@ footer {
     width: 80%;
     text-align: center;
 }
+
 
 .skillSection { 
     background-color: rgba(25, 25, 25, 0.144);
