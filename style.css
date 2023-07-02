@@ -4,14 +4,14 @@
     --gradient: linear-gradient(to left, var(--accent-color), hsl(313, 100%, 50%));
 
     --link-color: rgb(224, 224, 0);
-    --section-color: hsl(0, 0%, 58%);
+    --section-color: rgb(191, 191, 191);
     --greeting: rgba(255, 255, 255, 0.045);
   }
-
   
 .invBtn, .portfolioBtn, .tryMeBtn {
     background: var(--gradient);
     color: white;
+
 }
 
 .greeting:hover, .skillSection:hover, .contactSection:hover, .projSection:hover {
@@ -86,7 +86,8 @@ section {
     width: 425px;
     padding: 1rem 1rem 3rem 4rem;
     margin: 4rem 0 3.2rem 10rem;
-    background-color: var(--greeting); 
+    background-color: var(--greeting);
+    transition: background-color 0.3s ease-in-out;
     border-radius: 10px; 
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
 
@@ -133,6 +134,11 @@ a {
     flex-grow: 1;
     margin-left: 11rem;
     gap: 2.5rem;
+}
+
+.navLinks {
+    color: rgb(224, 224, 0);
+
 }
 
 .linksContainer a:hover, .github:hover {
@@ -191,6 +197,7 @@ a {
 
 .skillSection { 
     background-color: rgba(25, 25, 25, 0.144);
+    transition: background-color 0.3s ease-in-out;
     height: 30rem;
     display: flex;
     margin: 5rem 0 2rem 0;
@@ -344,6 +351,7 @@ footer {
 
 .projSection {
     background-color: rgba(25, 25, 25, 0.144);
+    transition: background-color 0.3s ease-in-out;
     height: 30rem;
     display: flex;
     margin-bottom: 2rem;
@@ -355,6 +363,7 @@ footer {
 
 .contactSection {
     background-color: rgba(25, 25, 25, 0.144);
+    transition: background-color 0.3s ease-in-out;
     height: 25rem;
     margin-bottom: 2rem;
     border-radius: 10px; 
@@ -463,7 +472,7 @@ footer {
     width: 60%;
     padding: 1vh 10vw 3rem 10vw;
     margin: 2rem 0 -1.5rem 0rem;
-    background-color: rgba(255, 255, 255, 0.032); 
+    background-color: var(--greeting); 
     border-radius: 10px; 
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
    
@@ -521,11 +530,16 @@ footer {
 .contactSection {
     width: 80%;
     height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
 .projSection {
     background-color: rgba(25, 25, 25, 0.144);
+    transition: background-color 0.5s ease-in-out;
     width: 80%;
     height: 100vh;
     margin-bottom: 2rem;
@@ -558,7 +572,7 @@ footer {
 
 section {
     width: 100%;
-    color:hsl(0, 0%, 58%);
+    color: var(--section-color);
     margin: 15rem 0 2rem 0vw;
     padding: rem;
 
@@ -578,13 +592,6 @@ section {
     margin: 0 auto;
 }
 
-.contactSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 .contactRightside {
     width: 280px;
     height: 100%;
@@ -596,7 +603,7 @@ section {
     width: 200px;
     height: 100px;
     padding: 20px;
-    background-color: rgba(181, 181, 181, 0.092);
+    background-color: var(--greeting);
     border-radius: 10px;
     margin-bottom: -2rem;
     margin-left: -1.2rem;
