@@ -6,6 +6,8 @@
     --link-color: rgb(224, 224, 0);
     --section-color: rgb(191, 191, 191);
     --greeting: rgba(255, 255, 255, 0.045);
+
+    --hover: rgba(255, 255, 255, 0.075);
   }
   
 .invBtn, .portfolioBtn, .tryMeBtn {
@@ -15,7 +17,7 @@
 }
 
 .greeting:hover, .skillSection:hover, .contactSection:hover, .projSection:hover {
-    background-color: rgba(255, 255, 255, 0.075); 
+    background-color: var(--hover); 
 
 }
 
