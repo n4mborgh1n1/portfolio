@@ -263,8 +263,8 @@ footer {
 
 .backFont {
     position: absolute;
-    left: 12rem;
-    bottom: -32rem;
+    left: 4rem;
+    bottom: 0rem;
     font-size: 22em;
     font-weight: 700;
     opacity: 5%;
