@@ -51,8 +51,8 @@ p {
     border-radius: 20px;
     padding: 5px 5px;
     position: fixed;
-    left: 93vw;
-    bottom: 3rem;
+    left: 5vw;
+    top: 85vh;
     cursor: pointer;
     border: none;
     font-weight: 700;

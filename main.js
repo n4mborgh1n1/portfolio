@@ -52,7 +52,7 @@ document.getElementsByClassName("dropBtn")[0].addEventListener("click", function
     }
   }
 
-  gsap.from('div, img', {opacity: 0, duratio: 1})
+  gsap.from('div, img', {opacity: 0, duration: 1, y: 50})
 
 
   
