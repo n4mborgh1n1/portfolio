@@ -16,7 +16,7 @@
 
 }
 
-.greeting:hover, .skillSection:hover, .contactSection:hover, .projSection:hover {
+.greetingSection:hover, .skillSection:hover, .contactSection:hover, .projSection:hover {
     background-color: var(--hover); 
 
 }
@@ -72,6 +72,18 @@ p {
     width: 500px;
 }
 
+#greeting {
+    position: relative;
+    top: 40px;
+
+}
+
+
+.char {
+    transform: translateY(115px);
+    transition: transform .5s;
+} 
+
 section {
     width: 100%;
     color: var(--section-color);
@@ -89,7 +101,7 @@ section {
     border-radius: 5px;
 }
 
-.greeting {
+.greetingSection {
     width: 425px;
     padding: 1rem 1rem 3rem 4rem;
     margin: 4rem 0 3.2rem 10rem;
@@ -480,7 +492,7 @@ footer {
 
 }
 
-.greeting {
+.greetingSection {
     width: 60%;
     padding: 1vh 10vw 3rem 10vw;
     margin: 2rem 0 -1.5rem 0rem;
