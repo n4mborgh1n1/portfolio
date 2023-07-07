@@ -78,6 +78,15 @@ p {
 }
 
 
+.langContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    
+}
+
+
 .char {
     transform: translateY(115px);
     transition: transform .5s;
@@ -216,8 +225,7 @@ a {
 .skillSection { 
     background-color: rgba(25, 25, 25, 0.144);
     transition: background-color 0.3s ease-in-out;
-    height: 30rem;
-    display: flex;
+    height: 30rem;    
     margin: 5rem 0 2rem 0;
     border-radius: 10px; 
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
@@ -232,8 +240,7 @@ a {
     justify-content: center;
     align-items: center;
     position: relative;
-
-    margin-left: -550px;
+    margin-right: 10vw;   
 }
 
 .langLogo {
@@ -345,8 +352,9 @@ footer {
     max-width: 100%;
     border-radius: 10px;
     position: relative;
-    bottom: 15rem;
+    bottom: 20rem;
     left: 40rem;
+    margin-top: 5vh;
 }
 
 .splitterApp {
@@ -368,8 +376,15 @@ footer {
 
 .projHeader, .skillHeader {
     width: 100%;
-    margin-left: 4rem;
+    margin-left: 4.4vw;
+    margin-top: 10vh;
     
+}
+
+.skillHeader {
+    position: relative;
+    top: 7vh;
+
 }
 
 .projSection {
@@ -549,6 +564,12 @@ footer {
     border-radius: 10px; 
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
      
+}
+
+.langContainer {
+    height: 100%;
+    display: block;    
+    margin: 5rem 0 2rem 0;
 }
 
 .contactSection {
