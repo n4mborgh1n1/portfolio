@@ -67,7 +67,7 @@ const greeting = new SplitType('#greeting')
 
 // Animation anderer Elemente
    
-gsap.from('div, img', {opacity: 0, duration: 0.5, y: -30, stagger: 0.075})
+gsap.from('div, img', {opacity: 0, duration: 0.4, y: -30, stagger: 0.05})
 
 
   
