@@ -68,6 +68,10 @@ p {
     display: none;
 }
 
+#landingContainer {
+    margin: 0 auto;
+}
+
 .leftSide {
     width: 500px;
     margin-top: 1%;
@@ -84,7 +88,6 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    
 }
 
 
@@ -232,6 +235,12 @@ a {
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.209);
 }
    
+.langContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
 
 .langBox {
     width: 200px;
