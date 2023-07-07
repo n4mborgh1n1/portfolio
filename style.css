@@ -70,6 +70,7 @@ p {
 
 .leftSide {
     width: 500px;
+    margin-top: 1%;
 }
 
 #greeting {
@@ -352,7 +353,7 @@ footer {
     max-width: 100%;
     border-radius: 10px;
     position: relative;
-    bottom: 20rem;
+    bottom: 18rem;
     left: 40rem;
 }
 
@@ -373,17 +374,17 @@ footer {
     left: 4rem;
  }
 
-.projHeader, .skillHeader {
+.projHeader {
     width: 100%;
-    margin-left: 4.4vw;
-    margin-top: 10%;
+    margin: 2rem 0 0 4rem;
     
 }
 
 .skillHeader {
+    width: 100%;
     position: relative;
-    top: 50px;
-
+    top: 3vw;
+    margin: 2rem 0 0 4rem;
 }
 
 .projSection {
